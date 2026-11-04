@@ -1,0 +1,116 @@
+:root {
+    --color-page: #f5f6f4;
+    --color-surface: #ffffff;
+    --color-text: #171819;
+    --color-accent: #da6053;
+    --color-border: #d8dad7;
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-page);
+    color: var(--color-text);
+    margin: 0;
+}
+
+/* Header */
+header {
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    padding: 0.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+}
+.brand{
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-text);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+main{
+    max-width: 80rem;
+    padding: 1rem;
+    margin-inline: auto;
+    /* background-color: rgb(109, 109, 109); */
+}
+
+/* Products section*/
+#products{
+    scroll-margin-top: 4rem;
+    padding: 0.2rem 1.5rem 3rem 1rem;
+}
+
+#products h1{
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.05;
+    margin-bottom: 1rem;
+}
+#products p{
+    max-width: 38rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+#products img{
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Product card */
+.product-card{
+     flex: 1 1 16rem;
+    padding: 1rem;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+}
+
+/* Features */
+#features{
+    scroll-margin-top: 4rem;
+}
+
+/* Video */
+
+section{
+    scroll-margin-top: 4rem;
+}
+
+section#demo video{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

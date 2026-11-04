@@ -1,0 +1,122 @@
+<!-- Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks. Do not copy this demo project.
+
+User Stories:
+
+Your product landing page should have a header element with a corresponding id="header"
+You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+You can see at least three clickable elements inside the nav element, each with the class nav-link
+When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
+You can watch an embedded product video with id="video"
+Your landing page has a form element with a corresponding id="form"
+Within the form, there is an input field with id="email" where you can enter an email address
+The #email input field should have placeholder text to let users know what the field is for
+The #email input field uses HTML5 validation to confirm that the entered text is an email address
+Within the form, there is a submit input with a corresponding id="submit"
+When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+The navbar should always be at the top of the viewport
+Your product landing page should have at least one media query
+Your product landing page should utilize CSS flexbox at least once
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS -->
+
+
+<!DOCTYPE Html>
+<html lang="en-UK">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="E-commerce site">
+        <!-- <link rel="stylesheet" href="/fontawesome-free-6.4.1-web/fontawesome-free-6.4.1-web/css/all.css"> -->
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontawesome/fontawesome-free@6.4.1/css/all.min.css"> -->
+        <link rel="stylesheet" href="./Product Landing Page.css">
+        <title> Vision Pro Max</title>
+    </head>
+    <body>
+        <header id="header">
+            <!-- Navbar (Should be fixed)-->
+            <p id="logo">
+                <span id="logo-text">Glasses</span>
+                <img src="./Images/glasses-1145125_1280.png" alt="" id="header-img"> <!--Insert Logo-->
+            </p>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link"><a href="#header">Home</a></li>
+                    <li class="nav-link"><a href="#products">Products</a></li>
+                    <li class="nav-link"><a href="#">Features</a></li>
+                    <li class="nav-link"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Products -->
+            <section id="products">
+                <h2 class="section-header">PRODUCTS</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3 class="product-name">Eyeglasses</h3>
+                        <img src="./Images/eyeglasses-1867173_1280.jpg" alt="">
+                        <hr>
+                        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto.</p>
+                        <div class="price">GHS 1.00</div>
+                        <button class="buy-btn"> Buy <!-- Add Shopping cart Icon-->
+                        </button>
+                    </div>
+                    <div class="card">
+                        <h3 class="product-name">Fashion Glasses</h3>
+                        <img src="./Images/fashion-1283615_1280.jpg" alt="">
+                        <hr>
+                        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto.</p>
+                        <div class="price">GHS 1.00</div>
+                        <button class="buy-btn"> Buy <!-- Add Shopping cart Icon-->
+                        </button>
+                    </div>
+                    <div class="card">
+                        <h3 class="product-name">Aviator Sunglasses</h3>
+                        <img src="./Images/aviator-sunglasses-2592111_1280.jpg" alt="">
+                        <hr>
+                        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, iusto.</p>
+                        <div class="price">GHS 1.00</div>
+                        <button class="buy-btn"> Buy <!-- Add Shopping cart Icon-->
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="video">
+                <h2>TITLE</h2>
+                <!-- Video -->
+                <video src="./Images/Short Sunglasses Advert.mp4"  height="440" controls></video>
+                <!-- <iframe src="http://127.0.0.1:5500/Certification%20Projects/Product%20Landing%20Page/Images/Short%20Sunglasses%20Advert.mp4" frameborder="0" width="100%" height="300"></iframe> -->
+                
+            </section>
+        </main>
+        <footer>
+            <section id="footer-text">
+                
+                <p>Made with 😊</p>
+            </section>
+
+            <section id="contact-us">
+                <!-- Form -->
+                 <fieldset>
+                     <legend>Contact Us</legend>
+                     <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+                         <div class="form-group">
+                             <label for="email">Email</label> <br>
+                              <input type="email" name="email" id="email" placeholder="nag@gmail.com" required>
+                         </div> 
+                         <div class="form-group">
+                             <label for="message">Message</label> <br>
+                              <input type="text" name="message" id="message" placeholder="Type your message here" required>
+                         </div> 
+                         <input type="submit" value="Submit" id="submit">    
+                     </form>
+                 </fieldset>
+                
+            </section>
+        </footer>
+    </body>
+</html> 

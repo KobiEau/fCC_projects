@@ -1,0 +1,1201 @@
+{
+    "user": {
+        "id": "aba7069f-f13b-4c43-8d7b-7d04c5346030",
+        "firstName": "Nana",
+        "lastName": "Ebow",
+        "email": "nanaebow4@gmail.com",
+        "legacyGuid": "3AD692F8B60D1856E063A00E7064F1E9",
+        "permissions": [
+            "student_profile",
+            "notification",
+            "integration"
+        ],
+        "createdAt": "2025-08-07T20:35:09.148Z",
+        "updatedAt": "2025-08-07T20:35:09.148Z",
+        "preferredLanguage": "English",
+        "community": null,
+        "promotions": {},
+        "learnerRoleProfileId": "1c0fcc43-51b7-444f-b690-91fe584c4293",
+        "learnerRoleProfiles": [
+            {
+                "id": "dbc4afd9-aca7-4dfa-b5d6-828b861c81ce",
+                "name": "OSPA",
+                "description": "OSPA",
+                "isDefault": true,
+                "libraries": [
+                    {
+                        "id": "9fe5a1b9-f7fc-42ee-bc3f-61e0c395c66a",
+                        "index": "mlprod_content_ospa_index"
+                    }
+                ],
+                "frontend": {
+                    "headerBoldTitle": {
+                        "default": "",
+                        "guest": ""
+                    },
+                    "headerTitle": {
+                        "default": "Oracle Partner Sales",
+                        "guest": "Oracle Partner Sales"
+                    }
+                },
+                "sortNumber": 3,
+                "contentOwners": [
+                    {
+                        "id": "cb3c2af4-3f4e-4f85-8e6d-70bedbb7d20c",
+                        "name": "OSPA",
+                        "legacyLearnOwnerId": 2,
+                        "label": "OSPA"
+                    }
+                ],
+                "isVisible": true,
+                "friendlyUrlPath": "partnersales"
+            },
+            {
+                "id": "1b5829ae-6002-4f1d-bbd6-12254f72461b",
+                "name": "Oracle Academy",
+                "description": "Oracle Academy",
+                "isDefault": true,
+                "libraries": [
+                    {
+                        "id": "f5306ca7-f866-42e8-adc6-01f1122cfedc",
+                        "index": "mlprod_content_oa_index"
+                    },
+                    {
+                        "id": "3d55a25d-c23e-4107-a733-a60d20f0f76d",
+                        "index": "mlprod_content_oa_instructor_index"
+                    }
+                ],
+                "frontend": {
+                    "headerBoldTitle": {
+                        "default": "",
+                        "guest": ""
+                    },
+                    "headerTitle": {
+                        "default": "Oracle Academy",
+                        "guest": "Oracle Academy"
+                    }
+                },
+                "sortNumber": 1,
+                "contentOwners": [
+                    {
+                        "id": "16c06fa7-b854-4a75-863b-c8af1a25cfdd",
+                        "name": "OA",
+                        "legacyLearnOwnerId": 9,
+                        "label": "OA"
+                    }
+                ],
+                "isVisible": false,
+                "friendlyUrlPath": "academy"
+            },
+            {
+                "id": "1c0fcc43-51b7-444f-b690-91fe584c4293",
+                "name": "OU",
+                "description": "Oracle University",
+                "isDefault": true,
+                "libraries": [
+                    {
+                        "id": "294319a2-7330-4116-8763-79b06a689d72",
+                        "index": "mlprod_content_ou_index"
+                    },
+                    {
+                        "id": "41fdd0b3-6540-47f6-9365-33c20c129b6e",
+                        "index": "mlprod_content_foodnbev_index"
+                    },
+                    {
+                        "id": "55b1ad01-930e-4b53-b8be-08b607c313e2",
+                        "index": "mlprod_content_product_support_index"
+                    }
+                ],
+                "frontend": {
+                    "headerBoldTitle": {
+                        "default": "",
+                        "guest": ""
+                    },
+                    "headerTitle": {
+                        "default": "Oracle University",
+                        "guest": "Oracle University"
+                    }
+                },
+                "sortNumber": 1,
+                "contentOwners": [
+                    {
+                        "id": "19fd207f-b7e4-437e-b296-3c8675de09fd",
+                        "name": "OU",
+                        "legacyLearnOwnerId": 1,
+                        "label": "OU"
+                    },
+                    {
+                        "id": "87dec3bf-016c-4c96-9d5c-162c488d92a4",
+                        "name": "FOODNBEV",
+                        "legacyLearnOwnerId": 8,
+                        "label": "FOODNBEV"
+                    },
+                    {
+                        "id": "f0eb1cd1-b0b3-4f88-85ff-9d1f997fdf2d",
+                        "name": "PRODUCT_SUPPORT",
+                        "legacyLearnOwnerId": 6,
+                        "label": "PRODUCT_SUPPORT"
+                    },
+                    {
+                        "id": "d1c93b0b-ccc7-4f5f-b5d3-998fd0cd34cd",
+                        "name": "HOSPITALITY",
+                        "legacyLearnOwnerId": 7,
+                        "label": "HOSPITALITY"
+                    }
+                ],
+                "isVisible": true,
+                "friendlyUrlPath": "ou"
+            },
+            {
+                "id": "f3cf0b71-88b7-443b-9d0e-f4303ded018a",
+                "name": "Netsuite",
+                "description": "NetSuite",
+                "isDefault": true,
+                "libraries": [
+                    {
+                        "id": "83b835ac-33bc-4ed4-9eb7-d46042ccac10",
+                        "index": "mlprod_content_netsuite_customer_index"
+                    },
+                    {
+                        "id": "e399b9cc-826e-4225-8e9b-2ad428518bb0",
+                        "index": "mlprod_content_netsuite_free_index"
+                    },
+                    {
+                        "id": "a4bf4dac-2394-426b-8fe8-38df75225537",
+                        "index": "mlprod_content_netsuite_multiple_index"
+                    }
+                ],
+                "frontend": {
+                    "headerBoldTitle": {
+                        "default": "",
+                        "guest": ""
+                    },
+                    "headerTitle": {
+                        "default": "NetSuite",
+                        "guest": "NetSuite"
+                    }
+                },
+                "sortNumber": 2,
+                "contentOwners": [
+                    {
+                        "id": "6c488e6d-b7e3-4ea3-854f-6e1f8b54874c",
+                        "name": "Netsuite",
+                        "legacyLearnOwnerId": 3,
+                        "label": "Netsuite"
+                    }
+                ],
+                "isVisible": true,
+                "friendlyUrlPath": "netsuite"
+            }
+        ]
+    },
+    "examCreditBanDetails": {
+        "isBanned": false,
+        "bannedTill": null
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFiYTcwNjlmLWYxM2ItNGM0My04ZDdiLTdkMDRjNTM0NjAzMCIsImZpcnN0TmFtZSI6Ik5hbmEiLCJsYXN0TmFtZSI6IkVib3ciLCJlbWFpbCI6Im5hbmFlYm93NEBnbWFpbC5jb20iLCJsZWdhY3lHdWlkIjoiM0FENjkyRjhCNjBEMTg1NkUwNjNBMDBFNzA2NEYxRTkiLCJwZXJtaXNzaW9ucyI6WyJzdHVkZW50X3Byb2ZpbGUiLCJub3RpZmljYXRpb24iLCJpbnRlZ3JhdGlvbiJdLCJsZWFybmVyUm9sZVByb2ZpbGVJZCI6IjFjMGZjYzQzLTUxYjctNDQ0Zi1iNjkwLTkxZmU1ODRjNDI5MyIsImluZGV4ZXMiOlsibWxwcm9kX2NvbnRlbnRfb3VfaW5kZXgiLCJtbHByb2RfY29udGVudF9mb29kbmJldl9pbmRleCIsIm1scHJvZF9jb250ZW50X3Byb2R1Y3Rfc3VwcG9ydF9pbmRleCJdLCJjb250ZW50T3duZXJzIjpbeyJpZCI6IjE5ZmQyMDdmLWI3ZTQtNDM3ZS1iMjk2LTNjODY3NWRlMDlmZCIsIm5hbWUiOiJPVSIsImxlZ2FjeUxlYXJuT3duZXJJZCI6MSwibGFiZWwiOiJPVSJ9LHsiaWQiOiI4N2RlYzNiZi0wMTZjLTRjOTYtOWQ1Yy0xNjJjNDg4ZDkyYTQiLCJuYW1lIjoiRk9PRE5CRVYiLCJsZWdhY3lMZWFybk93bmVySWQiOjgsImxhYmVsIjoiRk9PRE5CRVYifSx7ImlkIjoiZjBlYjFjZDEtYjBiMy00Zjg4LTg1ZmYtOWQxZjk5N2ZkZjJkIiwibmFtZSI6IlBST0RVQ1RfU1VQUE9SVCIsImxlZ2FjeUxlYXJuT3duZXJJZCI6NiwibGFiZWwiOiJQUk9EVUNUX1NVUFBPUlQifSx7ImlkIjoiZDFjOTNiMGItY2NjNy00ZjVmLWI1ZDMtOTk4ZmQwY2QzNGNkIiwibmFtZSI6IkhPU1BJVEFMSVRZIiwibGVnYWN5TGVhcm5Pd25lcklkIjo3LCJsYWJlbCI6IkhPU1BJVEFMSVRZIn1dLCJpZHBOYW1lIjoib3UiLCJpZGVudGl0eVByb3ZpZGVySWQiOiJmZDRkMTAxNS0xNDBlLTQ2YzQtOGYyNy00OGQ3MWE3ZWY2OTYiLCJleHRlcm5hbElkIjoibmFuYWVib3c0QGdtYWlsLmNvbSIsImlhdCI6MTc1NDU5ODkyNiwiZXhwIjoxNzU0NjAwMTI2fQ._jRBaozEkoXsxImt2Uj_AdUtSTkZor0spBhj0MAs5Jg"
+}
+
+{
+    "id": null,
+    "learnerId": "aba7069f-f13b-4c43-8d7b-7d04c5346030",
+    "learnerRoleProfileId": "1c0fcc43-51b7-444f-b690-91fe584c4293",
+    "metadata": {
+        "products": [],
+        "learningGoal": [],
+        "sendEmail": true
+    }
+},
+
+
+{
+    "took": 5,
+    "timed_out": false,
+    "_shards": {
+        "total": 3,
+        "successful": 3,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 6866,
+            "relation": "eq"
+        },
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "127467",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Este Curso Ir&aacute; Ajud&aacute;-lo A Desenvolver Uma Base S&oacute;lida Em Computa&ccedil;&atilde;o Em Nuvem, Conceitos B&aacute;sicos E Recursos Do Oracle Cloud Infrastructure (OCI).",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "9",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "127467",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "12014",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "OCI Foundations Associate (BP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "119593",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "このコースでは、Oracle Cloud Infrastructure(OCI)の導入や移行を検討している方を対象として、以下のような項目について扱います。\r\n\r\n・OCIとは\r\n・OCIが採用される理由\r\n・OCIの活用事例\r\n・OCI移行・活用検討サービス\r\n・OCIの学習に役立つコンテンツ\r\n\r\nコース内では、各種サービスの設定など詳細には触れておりませんが、OCIの強みを理解して、効率よく学習するための情報なども含まれているため、技術者の方にとっても役立つ内容になっております。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "1",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "119593",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "4876",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "OCI概要 /Introduction to Oracle Cloud Infrastructure (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "152368",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Linux: System Administration On Oracle Cloud Infrastructure Course Is Designed For System Administrators Seeking To Build Expertise In Running Oracle Linux Within OCI. Beginning With The Fundamentals Of Oracle Cloud And Extending To Advanced OS Management And Storage Configuration, The Course Integrates Real-time Demonstrations To Reinforce Core Competencies.\r\n\r\n&nbsp;\r\n\r\nTopics Include Creating And Managing Compute Instances, Configuring User Permissions, Editing Files And Scripts, Enabling OS Management Hub, Patching With Ksplice, Configuring GUI Access Via VNC, And Managing ISCSI And OCFS2 Storage. Learners Will Engage In Step-by-step Walkthroughs And Hands-on Demos That Mirror Real-world Scenarios.\r\n\r\n&nbsp;\r\n\r\nAfter Completing This Course, You Should Be Able To:\r\n\r\n\r\n\tDeploy And Manage Oracle Linux Compute Instances On OCI\r\n\tPerform Core Linux Administrative Tasks, Such As User Management, File Editing, And Scripting\r\n\tSet Up And Manage The OS Management Hub For Automated Patching And Monitoring\r\n\t&nbsp;Apply Live Kernel Patching Using Ksplice\r\n\t&nbsp;Configure VNC And GUI Access For Remote Linux Desktops\r\n\t&nbsp;Implement ISCSI Storage And Configure Oracle Cluster File System V2 (OCFS2)",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "7",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [
+                        "System Administrator"
+                    ],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [
+                        "Oracle Cloud Infrastructure",
+                        "OCI Hands-On Labs",
+                        "Oracle Linux",
+                        "Oracle Linux"
+                    ],
+                    "dl.item.id": "152368",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [
+                        "1461",
+                        "3747",
+                        "734",
+                        "3154"
+                    ],
+                    "dl.item.roleId": [
+                        "2628"
+                    ],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "29070",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Oracle Linux: System Administration on Oracle Cloud Infrastructure"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "142144",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2024 Architect Associate (1Z0-1072-24-JPN) 認定試験の準備をされている方のために、試験対策セミナーの様子を収めた動画です。対策セミナーに参加できない場合や、セミナー後に振り返りたい際に御活用ください。\r\n試験を受ける際の注意点や、学習ポイントなどを紹介しています。模擬問題＆解説という構成で、事前に学習した知識の効率的なチェックを行うことができます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "142144",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "7045",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2024 Architect Associate Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "101230",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Prepare For OCI Foundations Associate Certification (CN)",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "2",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "101230",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "1146",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI Foundations Associate Certification (CN)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "119647",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "このコースでは、クラウドコンピューティングの概要（実践編）について紹介しています。\r\n\r\nクラウドコンピューティングを学習する上での、導入的な役割を果たします。\r\n\r\n・自治体におけるクラウド活用場面\r\n　　自治体におけるクラウド活用場面\r\n　　自治体ネットワークとパブリッククラウドの接続イメージ\r\n・クラウド導入のステップ\r\n　　クラウド検討・導入に向けた進め方\r\n　　CSP（クラウド事業者）選定にあたっての留意点\r\n　　契約形態、予算科目について\r\n　　見積、調達における留意点\r\n　　予算超過に対する備え（従量課金型）\r\n・運用設計とCSPとの役割分担\r\nクラウド移行に伴う運用/管理業務の変化\r\n　　責任共有モデルについて\r\n　　課金管理について\r\n\r\nこのコースは、クラウドコンピューティングを理解する上での、基本的な用語の整理にも役に立ちます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "1",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "119647",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "3339",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "クラウドコンピューティング概要（実践編）/Introduction to Cloud Computing II (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "111856",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2022 Architect Associate (1Z0-1072-22-JPN) 認定試験の準備をされている方に最適なコースです。\r\n模擬問題＆解説という構成で、事前に学習した知識の効率的なチェックを行うことができます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "111856",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "9392",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI Architect 2022 Associate Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "101782",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Prepare For OCI Architect Professional Certification (2021) (CN)",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "4",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "101782",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "2599",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI Architect Professional Certification (2021) (CN)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "152801",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure Architect Professionalコースは、OCIの習熟度の向上を目指す、経験豊富なクラウド・アーキテクトおよびITプロフェッショナルのために綿密に設計されています。このコースでは、洗練されたOCIアーキテクチャ、戦略的な設計の原則、導入と管理のベスト・プラクティスを網羅した詳細なカリキュラムが提供されます。\r\n\r\nハンズオン演習の資料も提供されています。これらの演習は、堅牢でスケーラブル、かつ安全なOCI環境を構築・管理するために必要なスキルを定着させる上で極めて重要です。\r\n\r\nこのコースは、OCIの高度な機能に対する包括的な洞察を提供し、学習者にとって非常に貴重なものです。プログラム終了時には、複雑なOCIソリューションを設計・実装するための専門知識と自信を身につけ、クラウドインフラストラクチャの分野で高い能力と競争力を発揮できるようになります。\r\n\r\nこのコースは以下のカテゴリで構成されています。\r\n\r\n・高可用性とディザスタリカバリソリューションの設計\r\n・クラウドネイティブ・ソリューションの設計\r\n・Infrastructure As Code(IaC)の実装\r\n・OCIにおけるデータベースの設計、実装、運用\r\n・セキュリティ・ソリューションの設計\r\n・ マルチクラウドとハイブリッド・ソリューションの設計\r\n・OCIへのワークロードの移行\r\n・監視ソリューションの設計\r\n\r\nこのコースは、Oracle Cloud Infrastructure Architect Professional認定試験の準備に役立ちます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "10",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "152801",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "107099",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Oracle Cloud Infrastructure Architect Professional 2025 (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "106640",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Certification Prep Course For Oracle Cloud Infrastructure DevOps Professional 2022 (1Z0-1109-22) Certification.",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "1",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "106640",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "3112",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI DevOps Professional Certification"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "153000",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2025 Architect Professional (1Z0-997-25) 認定試験の準備をされている方に最適なコースです。\r\n\r\n実技試験における注意点、実技試験を想定したサンプルのシナリオを紹介しており、効率的に試験の準備ができるようになっています。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "153000",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "11827",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2025 Architect Professional Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "100207",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "このコースでは2021年5月にリリースされたBastion(要塞)サービスについて概要や使用方法を紹介しています。Bastionサービスにより、パブリック・エンドポイントを持たないターゲット・リソースへのアクセス元の制限および時間制限付きのアクセスが実現できます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "1",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "100207",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "4776",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Bastion Service Overview(JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "140514",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "-",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "140514",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "3732",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2024 Foundations Associate Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "123376",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Find Out Everything You Need To Know About Oracle Government Cloud. Develop A Strong Foundation In The Core Concepts Of Cloud Computing And Features Of Oracle Cloud Infrastructure (OCI).",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "10",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "123376",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "17749",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "OCI Foundation for Government Customers"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "141510",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2024 Architect Professional (1Z0-997-24) 認定試験の準備をされている方に最適なコースです。\r\n\r\n実技試験における注意点、実技試験を想定したサンプルのシナリオを紹介しており、効率的に試験の準備ができるようになっています。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "141510",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "12441",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2024 Architect Professional Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "147773",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Explore Identity Governance And Administration (IGA) And How Oracle Access Governance Can Enhance Your Enterprise&#39;s Security Posture. You&rsquo;ll Learn How To Implement Access Provisioning And Control Through Request-based Automation, Using Policies For Joiner-Mover-Leaver Processes. Master Ad-hoc, Periodic, And Event-based Access Reviews To Ensure Users Have The Right Access To The Right Systems When Needed. By The End Of This Course, You&#39;ll Be Equipped To Safeguard Your Organization From The Risks Of Ungoverned Identities And Uncontrolled System Access While Ensuring Regulatory Compliance.\r\n\r\nAfter Completing This Course, You Should Be Able To:\r\n\r\n\r\n\tExplain Basics Of Identity Governance And Administration (IGA)\r\n\tDiscuss The Basics Of Oracle Access Governance And Its Architecture\r\n\tSetup And Configure Oracle Access Governance\r\n\tExplain The Concepts Of Identity Orchestration\r\n\tIntegrate With Authoritative And Non-authoritative Systems\r\n\tCreate Access Controls For ABAC, PBAC, And RBAC\r\n\tEnsure Governance And Compliance With Certification Campaigns And Access/policy Reviews\r\n\tObtain Identity Intelligence Using Prescriptive Analytics And Insights",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "7",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [
+                        "Administrator"
+                    ],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [
+                        "Oracle Cloud Infrastructure",
+                        "Oracle Cloud Infrastructure",
+                        "Oracle Cloud Infrastructure"
+                    ],
+                    "dl.item.id": "147773",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [
+                        "1461",
+                        "1903",
+                        "3573"
+                    ],
+                    "dl.item.roleId": [
+                        "2451"
+                    ],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "16014",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Oracle Access Governance: Implementing Always-On Governance"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "153478",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2025 Developer Professional (1Z0-1084-25) 認定試験の準備をする方に最適なコースです。\r\n\r\n試験概要、出題トピック、効率的な学習方法を紹介し、サンプル問題の解説を行います。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "153478",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "4823",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2025 Developer Professional Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "101731",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Prepare For OCI Architect Associate Certification (2021) (CN)",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "4",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "101731",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "1908",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI Architect Associate Certification (2021) (CN)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "110881",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Oracle Cloud Infrastructure 2022 Foundations Associate (1Z0-1085-22) 認定試験の準備をされている方に最適なコースです。\r\n\r\n模擬問題＆解説という構成で、事前に学習した知識の効率的なチェックを行うことができます。",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "110881",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "7675",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Prepare for OCI 2022 Foundations Associate Certification (JP)"
+                },
+                "sort": [
+                    31
+                ]
+            },
+            {
+                "_index": "mlprod_content_ou_index_d425c69c-fdc7-4662-8128-4be22fa8a5e9",
+                "_id": "149750",
+                "_score": null,
+                "_source": {
+                    "dl.item.prodShortName": "OCI",
+                    "dl.item.legacyType": "4.0 Course",
+                    "dl.item.offering_part_numbers": [
+                        "7510299,Z000000,T103182,SBP0004,P000010,D98533,D98532,D98531,D98530,D98529,D98528,D98526,D98525,D98524,D98523,D96265,D95575,D94212,D94082,D94081,D93030,D92999,D92998,D92997,D92996,D92995,D92994,D92993,D92992,D92991,D92990,D92989,D92988,D92987,D92986,D92985,D92975,D89551,D88566,D88565,D88564,D88563,D88562,D86910,D86909,D86378,D86377,D85891,D110056,D110055,D110029,D109802,D109801,D109800,D109697,D109670,D109650,D109648,D109647,D109645,D109644,D109642,D109366,D109365,D109364,D109136,D109135,D109134,D108862,D108860,D108859,D108857,D108747,D108746,D108744,D104362,D104361,D104353,D104349,D104348,D104345,D104344,D104331,D104330,D103583,D103582,D103581,D103580,D103579,D103578,D103577,D103576,D103574,D103573,D103572,D103571,D103570,D103569,D103568,D103567,D103566,D103565,D103564,D103562,D103561,D103560,D103365,D103364,D103358,D103357,D103351,D103350,D103344,D103343,D103269,D103258,D103246,D103235,D103189,D103188,D103187,D103186,D103184,D103183,D103182,D102875,D102874,D102873,D102863,D102522,D102521,D102520,D102519,D102518,D102223,D102221,D101657,D101058,D100763,D100686,CS0027,CS0018,CS0015,CS0009,CS0005,CS0004,CS0003,CS0001,C0001,B99042,B99041,B97348,B94453,B94112,B94111,B94110,B94050,B92846,B92816,B92815,B92653,B90139,B90138,B90137,B90136,B89695,B87350,B85899,B109220,B109218,B109217,B109216,B109215,B109213,B109207,B109206,B109017,B109007,B109006,B108935,B108054"
+                    ],
+                    "dl.item.product": "Oracle Cloud Infrastructure",
+                    "dl.item.library": {
+                        "name": "ou_library",
+                        "label": {
+                            "text": "ou_library"
+                        },
+                        "url": ""
+                    },
+                    "dl.item.description": "Discover Oracle Cloud VMware Solution (OCVS) And Software-defined Data Centers (SDDC) On Oracle Cloud Infrastructure. Explore The Architecture, Use Cases, And Benefits Of OCVS SDDC. Learn How To Deploy Workloads, Configure Overlay Networks, And Set Up Network Connectivity For External And Internal Communications. By The End Of This Course, You&#39;ll Have A Thorough Understanding Of The Hybrid Cloud Extension (HCX) Functionality And Best Practices For Migrating Workloads Using HCX.\r\n\r\nAfter Completing This Course, You Should Be Able To:\r\n\r\n\r\n\tDiscuss VMWare SDDC And List Its Benefits\r\n\tIdentify The Products Available In The OCVS SDDC Platform\r\n\tProvision SDDC On Oracle Cloud Infrastructure\r\n\tEstablish Overlay Network Connectivity\r\n\tMigrate With HCX",
+                    "dl.item.mergedProd": "OCI__Oracle Cloud Infrastructure",
+                    "dl.item.tags": [
+                        "#paid"
+                    ],
+                    "dl.item.type": "Course",
+                    "dl.item.num_items": "3",
+                    "dl.item.componentId": "",
+                    "dl.item.is_free": 0,
+                    "dl.item.role": [
+                        "System Administrator",
+                        "Administrator"
+                    ],
+                    "dl.item.badgeId": "",
+                    "dl.item.area": [],
+                    "dl.item.id": "149750",
+                    "dl.item.subTitle": "",
+                    "dl.item.areaId": [],
+                    "dl.item.roleId": [
+                        "2628",
+                        "2451"
+                    ],
+                    "dl.item.offerings": [
+                        "35644"
+                    ],
+                    "dl.item.duration": "7993",
+                    "dl.pillar_names": [
+                        "OCI"
+                    ],
+                    "dl.item.name": "Oracle Cloud VMware Solution: Fundamentals"
+                },
+                "sort": [
+                    31
+                ]
+            }
+        ]
+    }
+}
