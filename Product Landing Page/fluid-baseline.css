@@ -33,27 +33,48 @@ header {
     border-bottom: 1px solid var(--color-border);
 }
 
-nav > ul {
+#logo{
     display: flex;
+    align-items:center;
+    gap: 0.5rem
+}
+#logo img{
+    max-width: 2rem;
+    height: auto;
+   
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--color-text);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1.25rem;
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav a{
-    display: block;
+    font-weight: 600;
     padding: 0.5rem;
     color: var(--color-accent);
     text-decoration: none;
+    transition: color 0.2s ease;
 }
-.brand{
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--color-text);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+
+nav a:hover,
+nav a:focus-visible{
+    color: var(--color-accent);
+    background-color: var(--color-border);
 }
 
 main{
@@ -65,20 +86,24 @@ main{
 
 /* Products section*/
 #products{
-    scroll-margin-top: 4rem;
     padding: 0.2rem 1.5rem 3rem 1rem;
 }
 
 #products h1{
+    max-width: 12ch;
+    margin: 0 0 1rem;
     font-size: clamp(2.5rem, 6vw, 5rem);
     line-height: 1.05;
-    margin-bottom: 1rem;
+    letter-spacing: -0.04em;
 }
-#products p{
-    max-width: 38rem;
+#products > p{
+    max-width: 36rem;
     font-size: 1.1rem;
     line-height: 1.6;
+    margin: 0 0 2rem;
+    color: rgba(23, 24, 25, 0.8);
 }
+
 #products img{
     max-width: 100%;
     height: auto;
@@ -99,9 +124,6 @@ main{
 }
 
 /* Features */
-#features{
-    scroll-margin-top: 4rem;
-}
 
 /* Video */
 
