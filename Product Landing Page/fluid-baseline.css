@@ -17,6 +17,7 @@ body{
     background-color: var(--color-page);
     color: var(--color-text);
     margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* Header */
@@ -41,7 +42,6 @@ header {
 #logo img{
     max-width: 2rem;
     height: auto;
-   
 }
 
 .brand{
@@ -75,6 +75,7 @@ nav a:hover,
 nav a:focus-visible{
     color: var(--color-accent);
     background-color: var(--color-border);
+    transition: ease-in-out 1s;
 }
 
 main{
@@ -104,27 +105,104 @@ main{
     color: rgba(23, 24, 25, 0.8);
 }
 
-#products img{
-    max-width: 100%;
-    height: auto;
-    display: block
-}
 .product-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
 }
 
 /* Product card */
 .product-card{
-     flex: 1 1 16rem;
+    flex: 1 1 16rem;
     padding: 1rem;
     border: 1px solid var(--color-border);
     background-color: var(--color-surface);
+    border-radius: 30px;
+    box-shadow: 2px 1px 1px 2px #979696;
+    overflow: hidden;
+}
+
+.product-card:hover{
+    box-shadow: 4px 4px 8px 1px #f19d94;
+}
+
+.product-card img{
+    width: 100%;
+    height: 220px;
+    display: block;
+    border-radius: 1rem;
+    object-fit: fill;
+}
+
+.product-title{
+    font-size:1.4rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.product-description{
+ margin: 0 0 1rem;
+ color: rgba(23, 24, 25, 0.85);
+}
+
+.product-buy-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: auto;
+    margin-bottom: 1.6rem;
+}
+
+.product-price{
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.9rem;
+}
+.product-price span{
+    color: var(--color-accent)
+}
+.product-price strong{
+color: var(--color-text);
+font-size: 1.2rem;
+}
+
+.buy-button{
+    border:none;
+    background: #171819;
+    color:white;
+    border-radius: 698px;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
 }
 
 /* Features */
+.features-container {
+   display:flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+}
 
+.features-item{
+    flex: 1 1 16rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    background: var(--color-surface);
+}
+
+.feature-item h3{
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.feature-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: rgba(23, 24, 25, 0.8)
+}
 /* Video */
 
 section{
@@ -135,4 +213,16 @@ section#demo video{
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+@media (max-width: 600px) {
+    header{
+        flex-direction: column;
+        align-items: center;        
+    }
+
+    nav ul{
+        align-items: center;
+        gap: 0.5rem;
+    }
 }
